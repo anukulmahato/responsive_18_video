@@ -1,0 +1,288 @@
+*{
+    box-sizing: border-box;
+}
+@media (max-width: 1400px) {
+    .mid_container {
+        padding-left: 20px;
+        padding-right: 20px;
+        box-sizing: border-box;
+    }
+}
+@media (max-width: 1200px) {
+    .video_section .video_right_content h2 {
+        font-size: 34px;
+        padding-bottom: 8px;
+    }
+
+    .video_section .video_right_content {
+        padding-left: 0rem;
+        padding-right: 0rem;
+    }
+
+    .news_items img {
+        width: 50%;
+    }
+}
+
+@media (max-width: 1050px) {
+    .header_menu .primary_menu ul li a {
+        font-size: 14px;
+        padding: 0 6px;
+    }
+    .logo span {
+        font-size: 22px;
+    }
+    .header_button .header-btn {
+        font-size: 14px;
+    }
+
+    .ns_single_item .news_content {
+        margin-top: 0px;
+    }
+}
+
+.primary_menu span{
+    display: none;
+}
+
+.testimonial_items .tes_single_box {
+	margin-right: 2%;
+}
+
+@media (max-width: 992px) {
+    .header_logo {
+        width: 100%;
+        text-align: center;
+    }
+    .logo img {
+        float: inherit;
+    }
+    .logo span {
+        font-size: 22px;
+        position: relative;
+        top: -14px;
+    }
+    .header_menu .primary_menu ul {
+        opacity: 0;
+        visibility: hidden;
+        height: 0;
+    }
+    .primary_menu span {
+        font-size: 32px;
+        color: #6278df;
+        display: block;
+    }
+
+    .header_button {
+        width: 200px;
+        position: absolute;
+        bottom: 10px;
+        right: 20px;
+    }
+
+    .video_section .video_left {
+        width: 100%;
+        float:none;
+        padding-left: 0rem;
+        padding-right: 0rem;
+    }
+    .video_section .video_right_content {
+        width: 100%;
+        float: none;
+    }
+    .video_section .video_right_content h2 {
+        font-size: 34px;
+        padding-bottom: 2px;
+        margin-top: 16px;
+    }
+
+    .section_title h1, .section_title h2 {
+        font-size: 32px;
+        font-weight: 500;
+    }
+
+    .section_title p {
+        font-size: 24px;
+        padding-top: 0.5rem;
+        padding-bottom: 1rem;
+        font-weight: 300;
+    }
+
+    .aplication_box {
+        width: 48%;
+    }
+
+    .aplication_box:nth-child(2n + 3) {
+        margin-right: 20px;
+    }
+    .aplication_box:nth-child(2n + 2) {
+        margin-right: 0;
+    }
+
+    .pri_button a {
+        padding: 10px 28px;
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    .price_table {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    
+    .team_section .team_mambers .team_card:nth-child(4n + 4) {
+        margin-right: 20px;
+      }
+    .team_section .team_mambers .team_card:nth-child(2n + 2) {
+        margin-right: 0;
+      }
+
+      .team_section .team_mambers .team_card {
+        width: 49%;
+        margin-bottom: 20px;
+    }
+
+    .news_items .ns_single_item {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .testimonial_items .tes_single_box .tes-comment p {
+        font-size: 18px;
+    }
+
+    .map {
+        width: 100%;
+    }
+
+    .contact_item {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .header_section {
+        position: relative;
+    }
+
+    .hero_section {
+        margin-top: 0;
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+    }
+
+    .hero_item h1 {
+        font-size: 1.6rem;
+        line-height: 1.5rem;
+    }
+    .hero_item h2 {
+        font-size: 2.6rem;
+        padding-top: 1rem;
+    }
+    .hero-botton {
+        padding-top: 1rem;
+    }
+    .hero_btn {
+        padding: 15px 25px;
+        font-size: 16px;
+    }
+    .video_section .video_right_content h2 {
+        font-size: 28px;
+    }
+
+    .aplication_box {
+        width: 48%;
+    }
+
+    .aplication_box:nth-child(2n + 3) {
+        margin-right: 20px;
+    }
+    .aplication_box:nth-child(2n + 2) {
+        margin-right: 0;
+    }
+
+    .aplication_box {
+        width: 100%;
+    }
+
+    .section_title h1, .section_title h2 {
+        font-size: 28px;
+        font-weight: 500;
+    }
+   
+
+    .section_title p {
+        font-size: 20px;
+    }
+
+    .n-title_wrap h3 {
+        font-size: 1rem;
+    }
+
+    .n-title_wrap p {
+        font-size: 1.7rem;
+        padding-top: 0;
+    }
+
+    .n-from .subsc_btn {
+        padding: 16px 38px;
+        font-size: 16px;
+    }
+
+    .default_form {
+        padding: 16px;
+        font-size: 16px;
+    }
+
+    .news_items .news_content h2 {
+        font-size: 18px;
+    }
+
+    .news_items .news_content p {
+        font-size: 1rem;
+    }
+
+    .testimonial_items .tes_single_box .tes-comment p {
+        font-size: 1.3rem;
+    }
+
+    .testimonial_items .tes_single_box {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    
+
+}
+
+@media (max-width: 568px) {
+    .hero_btn {
+        display: block;
+    }   
+    .hero_item h2 {
+        font-size: 1.6rem;
+    }
+    .hero-botton {
+        padding-top: 0rem;
+    }
+    .hero_item h1 {
+        font-size: 18px;
+        line-height: 0;
+    }
+    .video_section .video_right_content h2 {
+        font-size: 22px;
+    }
+    .video_section .video_right_content p {
+        font-size: 16px;
+    }
+
+    .team_section .team_mambers .team_card {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .news_items .news_content p {
+        padding-top: 0;
+    }
+    
+}
